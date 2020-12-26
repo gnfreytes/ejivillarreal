@@ -81,14 +81,14 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #B497D6;
+  background: #4A2343;
 }
 
 .fh5co-nav .top-menu {
   padding: 28px 0;
 }
 .fh5co-nav #fh5co-logo {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -870,6 +870,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  
 }
 .fh5co-staff h3 {
   font-size: 24px;
@@ -1183,7 +1184,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(74, 35, 67, 0.7);
   color: #fff;
   text-align: center;
   -webkit-border-radius: 4px;
@@ -1505,5 +1506,36 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 1rem;
 }
 
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:90px;
+	right:21px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
 
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        left: 10px;
+        font-size: 22px;
+    }
+}
 /*# sourceMappingURL=style.css.map */

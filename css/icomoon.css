@@ -235,10 +235,7 @@
   content: "\e069";
 }
 .icon-location:before {
-  content: "\e070";
-}
-.icon-location-2:before {
-  content: "\e071";
+  content: "\e947";
 }
 .icon-map:before {
   content: "\e072";
@@ -1568,4 +1565,10 @@
 }
 .icon-youtube:before {
   content: "\ea80";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
 }
